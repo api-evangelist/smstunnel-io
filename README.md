@@ -64,5 +64,133 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-SMSTunnel is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://smstunnel.io/
+SMSTunnel enables developers to send SMS messages directly from their web, desktop, or server applications using their own Android phone and SIM. By installing the SMSTunnel app on a personal device, users gain a private, end‑to‑end encrypted gateway that routes messages through their own number, avoiding shortcodes and third‑party services. The platform offers a free tier with limited daily texts and paid plans for higher volumes, includes optional encryption, and provides a dashboard for managing contacts, logs, and device settings. It supports integrations with popular automation tools and offers API documentation for programmatic access.
+
+**Areas:** SMS · Messaging · API · Encryption · Free-tier · Company
+
+## SMSTunnel on APIs.io
+
+Everything profiled for SMSTunnel is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/smstunnel-io/](https://apis.io/providers/smstunnel-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [SMSTunnel Account API](https://apis.io/apis/smstunnel-io/smstunnel-io-account-api/) — Your plan and usage.
+- [SMSTunnel Other tools' formats API](https://apis.io/apis/smstunnel-io/smstunnel-io-other-tools-formats-api/) — Send routes for tools that name the fields their own way, or expect a specific provider's request. They apply the rules of the strict send routes.
+- [SMSTunnel Phones API](https://apis.io/apis/smstunnel-io/smstunnel-io-phones-api/) — Your linked phones and their end-to-end encryption keys.
+- [SMSTunnel Received texts API](https://apis.io/apis/smstunnel-io/smstunnel-io-received-texts-api/) — Texts your phone received, once "Sync received texts" is on in the app.
+- [SMSTunnel Scheduled texts API](https://apis.io/apis/smstunnel-io/smstunnel-io-scheduled-texts-api/) — Texts sent with `sendAt`: list, read and cancel them.
+- [SMSTunnel Texts API](https://apis.io/apis/smstunnel-io/smstunnel-io-texts-api/) — Send a text or a sign-in code to one recipient, and follow its status.
+- [SMSTunnel Twilio Compatible API](https://apis.io/apis/smstunnel-io/smstunnel-io-twilio-compatible-api/) — Twilio's Messages, Verify v2 and Lookup v2 at Twilio's own paths, so code written for Twilio works by changing the host to `https://api.smstunnel.io` and…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [SMSTunnel Agentic Access](https://apis.io/agentic-access/smstunnel-io/smstunnel-io-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [PhoneNumberLookup](https://apis.io/schemas/smstunnel-io/smstunnel-io-phone-number-lookup/)
+- [SendTextRequest](https://apis.io/schemas/smstunnel-io/smstunnel-io-send-text-request/)
+- [TwilioMessage](https://apis.io/schemas/smstunnel-io/smstunnel-io-twilio-message/)
+- [Usage](https://apis.io/schemas/smstunnel-io/smstunnel-io-usage/)
+- [Verification](https://apis.io/schemas/smstunnel-io/smstunnel-io-verification/)
+- [VerifyService](https://apis.io/schemas/smstunnel-io/smstunnel-io-verify-service/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Smstunnel Io Context](https://apis.io/jsonld/smstunnel-io/smstunnel-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [SMSTunnel API Rules](https://apis.io/rules/smstunnel-io/smstunnel-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [SMSTunnel Authentication](https://apis.io/security/smstunnel-io/smstunnel-io-authentication/)
+- [SMSTunnel Domain Security](https://apis.io/security/smstunnel-io/smstunnel-io-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [SMSTunnel Plans Pricing](https://apis.io/plans/smstunnel-io/smstunnel-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://smstunnel.io/)
+- [Documentation](https://smstunnel.io/api-reference/)
+- [Pricing](https://smstunnel.io/pricing/)
+- [Blog](https://smstunnel.io/blog/)
+- [Terms of service](https://smstunnel.io/terms/)
+- [Privacy policy](https://smstunnel.io/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 51.2** — developing · rubric 0.28.0 · scored 2026-11-22
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 63.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 7.1 |
+| Developer ergonomics | 46.9 |
+| Access clarity | 48.5 |
+
+**Agent readiness 55.4** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 15.8** — Telecommunications
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/smstunnel-io/](https://apis.io/providers/smstunnel-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SMSTunnel: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/smstunnel-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
